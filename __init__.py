@@ -13,7 +13,6 @@ class MainApp(Frame,Main_Window,Functionality):
 		self.Create_Window_Login(Window) #Ejecutar la creacion de la ventana login
 			
 	def Create_Main_Window(self):
-		Privilege_Value=self.Privilege_Value #Almacenar el valor de privilegio del usuario
 		Default=self.Default #Almacenar el nombre de usuario
 		window=Tk() #Ventana principal
 		Main_Window(window)

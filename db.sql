@@ -1,12 +1,8 @@
 
-#El siguiente codigo crea la base de datos, las tablas, registros
- y procedimientos almacenados relacionados al programa #
+/* Crear estructura de la base de datos */
 
- #Copiar todo el siguiente codigo en la consola de mysql
- ________________________________________________________________________
-
-CREATE DATABASE internet;
-USE internet;
+CREATE DATABASE sistema;
+USE sistema;
 
 CREATE TABLE datos_cliente (
             `N` INT AUTO_INCREMENT,
@@ -230,4 +226,3 @@ END $$
 DELIMITER ;
 
 INSERT INTO login VALUES ('1','admin','');
-

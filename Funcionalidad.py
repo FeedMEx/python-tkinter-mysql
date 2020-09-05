@@ -20,7 +20,6 @@ class Functionality(Autenticar):
 		if Validar:
 			self.Default=self.User.get()
 			self.WindowLogin.destroy()
-			self.Privilege_Value=0
 			self.Create_Main_Window()
 
 		elif Validar=='Error_User':

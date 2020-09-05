@@ -3,6 +3,7 @@
 
 import mysql.connector
 from mysql.connector import errorcode
+import mysql.connector.locales.eng.client_error
 
 class Connection:
 
