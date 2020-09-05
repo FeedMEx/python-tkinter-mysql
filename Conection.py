@@ -13,7 +13,7 @@ class Connection:
 				user='root', #nombre de usuario
 				host='127.0.0.1',
 				password='', #Contraseña de acceso a mysql
-				database='internet') #Nombre de la base de datos
+				database='sistema') #Nombre de la base de datos
 			return connection
 	
 		except mysql.connector.Error as err:
