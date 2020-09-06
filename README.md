@@ -18,6 +18,3 @@ Este proyecto es escalable, esta trabajado con el paradigma de POO y estructurad
  - Existen algunos bugs, por ejem: escribir letras en la caja de monto. Puede escribir más metodos de validación de datos en el modulo "Autenticador.py" para eliminar estos bugs. 
  - Algunas funciones estan incompletas, por ejem: mostrar en rojo al cliente deudor. Puede escribir más metodos para agregar mas funcionalidad al proyecto.
  - Los años proximos se crean manualmente, puede escribir un metodo para generarlo automaticamente.
- 
-## Consulta sobre el proyecto
-gmail: 160892@unsaac.edu.pe
